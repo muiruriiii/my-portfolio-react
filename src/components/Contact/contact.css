@@ -1,0 +1,13 @@
+#contact {
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-1 {
+    flex-basis: 100%;
+    padding-bottom: 20px;
+}
