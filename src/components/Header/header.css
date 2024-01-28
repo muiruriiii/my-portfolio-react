@@ -42,4 +42,40 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-
+/*Column Layout*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-col-1{
+    flex-basis: 35%;
+}
+.header-col-2 {
+    flex-basis: 60%;
+}
+.header-info{
+    margin-top: 35%;
+    font-size: 20px;
+}
+.title{
+    color: #0F52BA;
+    font-size: 15px;
+    margin-bottom:15px;
+}
+header-info h1{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+.header-info h1 span{
+    color: #0F52BA;
+}
+.header-info p{
+    margin-top:15px;
+    font-size: 15px;
+}
+.header-col-2 img{
+    width: 100%;
+    margin-top: 35px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import './header.css';
-
+import background from '../../assets/background.jpeg';
 
 const Header = () => {
     return (
@@ -16,6 +16,18 @@ const Header = () => {
                         <li><a href="#contact" >Contact</a></li>
                     </ul>
                 </nav>
+                <div className="row">
+                    <div className="header-col-1">
+                        <div className="header-info">
+                            <h1 className="title">HELLO!</h1>
+                            <h1>I'm <span>Cynthia <br/>Muiruri.</span> <br/></h1>
+                            <p>A Freelance Web Developer.</p>
+                        </div>
+                    </div>
+                    <div className="header-col-2">
+                        <img src={background} alt="Background" />
+                    </div>
+                </div>
             </div>
         </section>
     );
