@@ -13,3 +13,20 @@
 .about-col-2 {
     flex-basis: 60%;
 }
+
+.about-col-1 img {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.about-col-2 p {
+    font-size: 13px;
+}
